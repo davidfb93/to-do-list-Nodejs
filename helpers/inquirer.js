@@ -32,8 +32,8 @@ const preguntas = [
                 name: `${ '6.'.blue.bold }  Borrar tarea`
             },
             {
-                value: '0',
-                name: `${ '0.'.green.bold }  Salir`
+                value: '7',
+                name: `${ '7.'.green.bold }  Salir`
             }
         ]
     }
