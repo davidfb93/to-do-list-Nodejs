@@ -48,7 +48,7 @@ const main = async () => {
             case '6':// Listar pendientes
                 const id = await listadoTareasBorrar( tareas.listadoArr );
                 if ( id !== '0' ) {
-                    const ok = await confirmar('¿Está seguro?');
+                    const ok = await confirmar('¿Está seguro de eliminar la tarea?');
                     if ( ok ) {
                         tareas.borrarTarea( id );
                         console.log('Tarea borrada'.white.bgRed);
